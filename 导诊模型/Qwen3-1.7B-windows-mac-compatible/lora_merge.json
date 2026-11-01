@@ -1,0 +1,18 @@
+{
+  "method": "mlx-lm==0.32.2 LoRALinear.fuse",
+  "accumulation": "float64 sequential outer products, then round to float32 and bfloat16",
+  "formula": "delta=((scale*lora_b.T)@lora_a.T).astype(bfloat16); weight=bfloat16(float32(weight)+float32(delta))",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "source_shard": "model-00001-of-00002.safetensors",
+  "source_sha256": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+  "output_sha256": "a359ab3fb5c101c6e8db4f146e5bdbf8389f4dac046861b87d52b405a40e9c20",
+  "unchanged_shard": "model-00002-of-00002.safetensors",
+  "unchanged_sha256": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+  "adapter_sha256": "f2c5cb7283c6fff0bf2e1b8e59e4c7c17a70d839d9b918497ef172c1b0eba36c",
+  "rank": 8,
+  "scale": 16.0,
+  "layers": "12-27",
+  "tensors_updated": 112,
+  "dtype": "BF16"
+}

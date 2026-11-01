@@ -1,0 +1,2 @@
+导诊模型/Qwen3-1.7B-windows-mac-compatible/*.safetensors.part-* filter=lfs diff=lfs merge=lfs -text
+导诊模型/Qwen3-1.7B-windows-mac-compatible/*.safetensors filter=lfs diff=lfs merge=lfs -text
