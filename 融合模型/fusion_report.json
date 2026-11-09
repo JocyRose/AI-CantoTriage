@@ -1,0 +1,130 @@
+{
+  "created_at": "2026-11-04T03:20:59.841977+00:00",
+  "status": "untrained_continuous_feature_initialization",
+  "architecture": "ASR audio_tower (with proj1/proj2) -> identity trainable alignment -> original Qwen3 decoder",
+  "weight_interpolation": false,
+  "training_performed": false,
+  "tensor_count": 709,
+  "parameter_count_including_tied_duplicates": 2353411712,
+  "stored_bytes": 4706823424,
+  "tensor_origins": {
+    "Qwen3-1.7B": 311,
+    "Qwen3-ASR-1.7B": 397,
+    "new": 1
+  },
+  "asr_original_text_decoder_retained": false,
+  "qwen_text_rope_and_parameters_preserved": true,
+  "audio_token_embeddings": "original Qwen rows; IDs reserved from ASR tokenizer; input alignment needs training",
+  "audio_token_ids": {
+    "start": 151669,
+    "end": 151670,
+    "pad": 151676
+  },
+  "source_weight_sha256": {
+    "基础模型\\Qwen3-1.7B\\model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+    "基础模型\\Qwen3-1.7B\\model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+    "粤语ASR\\model-00001-of-00002.safetensors": "a4cd1f1a04d90b757dc7f7dd26254e69a013b19e80efe590a83c6a3bde8608d6",
+    "粤语ASR\\model-00002-of-00002.safetensors": "6e0b9d9e09e2e0238e7ef3cc8a484ab387e91b90f1900bedf88bc92d7929ccfc"
+  },
+  "source_asr_revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+  "quality": {
+    "cantonese_audio_instruction_following": "not_evaluated_and_requires_alignment_SFT",
+    "cantonese_written_answers": "requested_by_prompt_not_guaranteed"
+  },
+  "validation": {
+    "exact_tensor_provenance": {
+      "passed": true,
+      "tensors_checked": 709
+    },
+    "processor": {
+      "passed": true,
+      "instruction_preserved": true,
+      "audio_placeholder_count": 8,
+      "text_tokens": 68,
+      "speech_tokens": 86
+    },
+    "full_checkpoint_reload": {
+      "passed": true,
+      "loading_info": {
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "mismatched_keys": [],
+        "error_msgs": []
+      },
+      "unique_parameters": 2042246784,
+      "dtype": "torch.bfloat16",
+      "tied_text_embeddings": true,
+      "device": "cpu"
+    },
+    "text_only_forward": {
+      "passed": true,
+      "logits_shape": [
+        1,
+        1,
+        151936
+      ]
+    },
+    "audio_plus_text_forward": {
+      "passed": true,
+      "logits_shape": [
+        1,
+        1,
+        151936
+      ]
+    },
+    "audio_only_forward": {
+      "passed": true,
+      "logits_shape": [
+        1,
+        1,
+        151936
+      ]
+    },
+    "text_cached_generation": {
+      "passed": true,
+      "generated_tokens": 3
+    },
+    "audio_plus_text_cached_generation": {
+      "passed": true,
+      "generated_tokens": 3
+    },
+    "text_example": {
+      "input": "請用廣東話簡單打個招呼。",
+      "output": "你好呀！係咪係？",
+      "quality_evaluation": false
+    },
+    "cross_module_gradients": {
+      "passed": true,
+      "loss": 7.822680950164795,
+      "parameters": {
+        "audio_tower.proj2.weight": {
+          "finite": true,
+          "max_abs": 27.5,
+          "norm": 267.61944580078125
+        },
+        "audio_alignment.weight": {
+          "finite": true,
+          "max_abs": 2.1875,
+          "norm": 116.59764862060547
+        },
+        "model.norm.weight": {
+          "finite": true,
+          "max_abs": 0.1484375,
+          "norm": 0.6473639607429504
+        }
+      },
+      "waveform": "synthetic_sine_not_cantonese",
+      "optimizer_step_taken": false,
+      "trained_weights_saved": false
+    },
+    "recognition_and_answer_quality": {
+      "evaluated": false,
+      "reason": "No user Cantonese speech instruction evaluation set supplied; continuous path still requires alignment SFT."
+    }
+  },
+  "official_code_sha256": {
+    "configuration_qwen3_asr.py": "acf6c3f1cb3dc1ea0df621a11f7df6ccca109be73b6bf51508b5052942f5bec1",
+    "modeling_qwen3_asr.py": "14fd1b2feeabd5d0b3e6313626ae10971eb846ff67fb7b8730375665cc2e3baf",
+    "processing_qwen3_asr.py": "a61f1fbfc06e3dfc63a2b8d15e3b29e98b032792c3fb7d0e01c04ca9c2181ffb"
+  }
+}

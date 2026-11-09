@@ -1,0 +1,38 @@
+{
+  "model-00001-of-00004.safetensors": {
+    "bytes": 1478052160,
+    "sha256": "881f5b623fb2613ef6ee05d0010d535084a8aa3a6f9d79650edfc1cabe7622a9"
+  },
+  "model-00002-of-00004.safetensors": {
+    "bytes": 1484932904,
+    "sha256": "dfff5d918512202aeba1d39917ec040c43fed55148badf3be936354ee4721b78"
+  },
+  "model-00003-of-00004.safetensors": {
+    "bytes": 1100530248,
+    "sha256": "d53ead5b5e8b2a279896a5beeaefe02378fb9ad443e7697de8e8ad64e6bb1572"
+  },
+  "model-00004-of-00004.safetensors": {
+    "bytes": 643389080,
+    "sha256": "c735200439d799c5d62057515af0b8ea37d49ec16524b00d746db775a2e80159"
+  },
+  "modeling_qwen3_asr.py": {
+    "bytes": 57963,
+    "sha256": "14fd1b2feeabd5d0b3e6313626ae10971eb846ff67fb7b8730375665cc2e3baf"
+  },
+  "modeling_canto_fusion.py": {
+    "bytes": 9283,
+    "sha256": "67441109e6bc41ce4949955df966ac8be32246b93468a327d2e6ae14005370a8"
+  },
+  "processing_qwen3_asr.py": {
+    "bytes": 8545,
+    "sha256": "a61f1fbfc06e3dfc63a2b8d15e3b29e98b032792c3fb7d0e01c04ca9c2181ffb"
+  },
+  "configuration_qwen3_asr.py": {
+    "bytes": 20164,
+    "sha256": "acf6c3f1cb3dc1ea0df621a11f7df6ccca109be73b6bf51508b5052942f5bec1"
+  },
+  "tokenizer_config.json": {
+    "bytes": 17693,
+    "sha256": "5bd6aebac20ddc7f91f4807d30465587f849cb316dfc4ee2dc730bc5be56c21d"
+  }
+}

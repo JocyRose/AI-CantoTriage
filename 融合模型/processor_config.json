@@ -1,0 +1,6 @@
+{
+  "processor_class": "CantoFusionProcessor",
+  "auto_map": {
+    "AutoProcessor": "processing_canto_fusion.CantoFusionProcessor"
+  }
+}

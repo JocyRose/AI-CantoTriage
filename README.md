@@ -2,8 +2,23 @@
 
 粤语单轮结构化医疗导诊的可行性实验。当前用小规模标注对 Qwen3-1.7B 文本模型做 LoRA 微调，观察它能否按固定格式给出科室建议。这些结果只说明小规模试训是否走得通，不能当作临床依据，也不是正式实验结论。
 
-更新时间：2026-11-03（UTC+08:00）  
+更新时间：2026-11-09（UTC+08:00）  
 更新者：傅昱
+
+## 语音文本融合初始化
+
+`融合模型/` 是另一套权重，不是上面的导诊 LoRA，也没有做过语音指令或导诊训练。
+
+它保留 Qwen3-ASR-1.7B 的音频塔，用一个无偏置、初始为单位矩阵的线性层对齐后，接入原始 Qwen3-1.7B 解码器。没有把两个解码器做插值，也没有留下 ASR 自己的文本解码器。语音和文字要能配合，还得用成对数据继续训练。现在不能把它当成粤语语音指令模型或导诊模型。
+
+`fusion_report.json` 只记录权重来源、加载、前向，以及几个 token 的生成检查，并写明没有评价识别或回答质量。本地试跑也不能外推为粤语识别、指令跟随或临床能力。
+
+- 连续融合使用本目录权重：`python 融合模型/tools/run_fusion.py --audio 录音.wav --instruction "用粤语概括呢段录音"`
+- 离散级联不使用这套融合权重。它先用原始粤语 ASR 转写，再交给原始 Qwen3-1.7B：`python 融合模型/tools/cascade.py --audio 录音.wav --instruction "这句话说了什么内容"`。原始模型不在本仓库，需要放在 `融合模型` 的上一级，目录名是 `粤语ASR` 和 `基础模型/Qwen3-1.7B`。
+
+不要把分词器的 `fix_mistral_regex` 改成 `true`。依赖见 `融合模型/requirements.txt`，其中 `transformers==4.57.6`。本地的 `_runtime` 没有上传。四个 safetensors 分片由 Git LFS 管理，均小于 2GB，校验值在 `融合模型/checksums.json`。
+
+文本解码器和音频塔的上游许可都是 Apache-2.0，分别来自 [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) 和 [Qwen/Qwen3-ASR-1.7B](https://huggingface.co/Qwen/Qwen3-ASR-1.7B)（音频塔 revision `7278e1e70fe206f11671096ffdd38061171dd6e5`）。许可证和上游模型卡留在该目录。`joint_lora_config.json` 只是以后联合训练的配置草稿，当前权重里没有已经训练好的 LoRA。
 
 ## 可行性实验
 
@@ -105,6 +120,8 @@
 逐条输出、提示词原文和独立核验保存在本地项目中，没有放进本仓库。
 
 ### 模型文件
+
+`导诊模型/` 是已经融合导诊 LoRA 的文本模型。上一节的 `融合模型/` 是未训练的语音—文本初始化，两者不要混用。
 
 `导诊模型/Qwen3-1.7B-windows-mac-compatible/` 是已经融合 LoRA 的 Transformers 模型，基座为 [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B/tree/70d244cc86ccca08cf5af4e1e306ecf908b1ad5e)，revision 为 `70d244cc86ccca08cf5af4e1e306ecf908b1ad5e`。模型分片由 Git LFS 管理。第一权重分片拆成三个连续文件；克隆后在仓库根目录执行：
 
