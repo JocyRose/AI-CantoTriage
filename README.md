@@ -127,6 +127,7 @@
 
 ```sh
 git lfs install
+git lfs pull
 python scripts/reassemble_qwen3_windows_mac.py
 ```
 

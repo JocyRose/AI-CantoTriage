@@ -11,3 +11,11 @@
 
 加载分词器时不要把 `fix_mistral_regex` 设为 `True`，否则会改掉原有预分词。
 四个 safetensors 分片的 SHA-256 在 `checksums.json`。本目录不包含 `_runtime`，请按 `requirements.txt` 安装依赖。离散级联还需要上一级的原始 `粤语ASR` 和 `基础模型/Qwen3-1.7B`，这两个模型没有放进仓库。
+
+克隆仓库后，在仓库根目录执行以下命令，下载融合权重并安装依赖：
+
+```sh
+git lfs install
+git lfs pull --include="融合模型/*.safetensors"
+python -m pip install -r 融合模型/requirements.txt
+```
