@@ -1,0 +1,6 @@
+原类别,论文英文,论文Table3问题数,候选科室,角色,train,valid,test,合计
+辅助检查科,Assistant Inspection,430,辅助检查科,同名,336,42,42,420
+体检科,Medical Examination,64,辅助检查科,放宽,49,6,7,62
+营养保健科,Nutrition and Health,172,营养保健科,同名,130,16,17,163
+运动瘦身,Slimming,169,营养保健科,放宽,128,16,17,161
+保健养生,Health Care,439,营养保健科,放宽,331,42,42,415
