@@ -1,0 +1,14 @@
+{
+  "format_version": 1,
+  "modules": {
+    "llm_model": {
+      "directory": "llm_lora"
+    },
+    "tts_lm_model": {
+      "directory": "tts_lora"
+    }
+  },
+  "metadata": {
+    "completed_samples": 42
+  }
+}

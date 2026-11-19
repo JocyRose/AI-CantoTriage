@@ -1,0 +1,30 @@
+{
+  "train": 42,
+  "validation": 14,
+  "test": 28,
+  "departments": 14,
+  "all_data_tts": true,
+  "seed": 42,
+  "cpu_threads": 6,
+  "max_text_tokens": 128,
+  "max_speech_tokens": 640,
+  "human_audio_review_count": 0,
+  "models": {
+    "base": {
+      "denominator": 28,
+      "department_reference_hit_count": 14,
+      "strict_format_match_count": 22,
+      "audio_acc": null,
+      "joint_acc": null,
+      "audio_acc_asr_estimate": null
+    },
+    "lora": {
+      "denominator": 28,
+      "department_reference_hit_count": 15,
+      "strict_format_match_count": 28,
+      "audio_acc": null,
+      "joint_acc": null,
+      "audio_acc_asr_estimate": null
+    }
+  }
+}

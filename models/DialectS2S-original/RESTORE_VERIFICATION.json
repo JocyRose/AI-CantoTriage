@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-19T11:26:56.109295+00:00",
+  "release_tag": "dialects2s-dual-lora-20261119",
+  "download_script_sha256": "e17c1b0f94decd9a8d3c2538f4da2878207f8d9bc3230c7f359e3e243486a713",
+  "manifest_sha256": "0ac55f0cf1a79e92c73b5de3cfd56686263bdf949f0cde9066aebce74eed7c73",
+  "verification_method": "Previously restored original base and decoder from all 43 local release parts and verified all 39 file hashes. Re-ran models/download_models.py --variant lora after removing local paths from adapter metadata; all five adapter files verified. No fresh remote download or model inference.",
+  "checks": {
+    "individual_part_sha256": "passed",
+    "concatenated_tar_sha256": "passed",
+    "restored_base_and_decoder_file_sha256": "passed",
+    "lora_zip_sha256": "passed",
+    "restored_adapter_file_sha256": "passed"
+  },
+  "archive_parts": 43,
+  "archive_bytes": 22577356800,
+  "restored_base_and_decoder_files": 39,
+  "restored_adapter_files": 5,
+  "model_inference_repeated": false,
+  "sanitized_lora_verified_at_utc": "2026-11-19T11:45:04.161770+00:00"
+}

@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "repository": "JocyRose/AI-CantoTriage",
+  "release_tag": "dialects2s-dual-lora-20261119",
+  "model_names": [
+    "DialectS2S (original backup)",
+    "glm-4-DialectS2S-CantoTriage-dual-LoRA"
+  ],
+  "shared_base": true,
+  "merged": false,
+  "built_with": "glm-4",
+  "base_model_revision": "938dc520d99941b9cf8634b8161823adf1a5694e",
+  "decoder_revision": "81ed541f0350d0b81728681afb628acee62772c2",
+  "archive": {
+    "format": "concatenated uncompressed tar",
+    "bytes": 22577356800,
+    "sha256": "d10a54574bd52c87530d76e4ab90fc70c743894edccf09850cdf0c22252ae5d9",
+    "parts": [
+      {
+        "name": "dialects2s-base-and-decoder.tar.part001",
+        "bytes": 536870912,
+        "sha256": "71f6df8ba8b544789d51a54912e72267f56ca956c1cd5af640a573e5ea023049",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part001"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part002",
+        "bytes": 536870912,
+        "sha256": "ac6bbb30a3a0252cd932c4282f612db842f7949dde1de2f35bf9d811b824402e",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part002"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part003",
+        "bytes": 536870912,
+        "sha256": "e8816f1edd0c1c78a1a318fb23d9ea95e235779acb47fd2a4eb53bd942e86923",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part003"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part004",
+        "bytes": 536870912,
+        "sha256": "edc08774e9a919acdbf702f7e2735f2a61089d43fd3c96fc3a862f7b19f9145f",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part004"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part005",
+        "bytes": 536870912,
+        "sha256": "f303c2d8b86037b8ad46cdc6f13f9d2afd5a37cbe1a0c9aafb852dc2aed2d7ba",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part005"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part006",
+        "bytes": 536870912,
+        "sha256": "1115adb98353e725d33d721debe4b3f4d423d614886d4101cce139dcb80221e9",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part006"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part007",
+        "bytes": 536870912,
+        "sha256": "a3c3f116d165ee868ff0be9b1aca4d2906259e456c8e5cc84804aa5c2bc9dce2",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part007"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part008",
+        "bytes": 536870912,
+        "sha256": "cfafa4f49d77c1ab0963fb3a98d6de815ca75fc2abcdc1b6d841c2c375cd8edb",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part008"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part009",
+        "bytes": 536870912,
+        "sha256": "8090f202f688badd040407b52d7f4b88101260e79eac82536cf5e94656fcf14c",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part009"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part010",
+        "bytes": 536870912,
+        "sha256": "8752e4b58126507478261bc065fa49de942f469ee71ceed070a0e5ebfa359341",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part010"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part011",
+        "bytes": 536870912,
+        "sha256": "f0166de8a6ad126ed69219993cbe7b423486cf392c20b9ba479745f6f95c4bea",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part011"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part012",
+        "bytes": 536870912,
+        "sha256": "ffabe5fda64e49398e87ad8a9d75b385ec315cae9829b5f2928ef50d8724d475",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part012"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part013",
+        "bytes": 536870912,
+        "sha256": "872d1ad5b6e533d239f6c7d790381f57aeb4f35f89060ff1fe7ff5ead8d11c08",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part013"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part014",
+        "bytes": 536870912,
+        "sha256": "74015aa27685475afa2c3605c6f48365e38f3cc492ec6efdcd602d473bcaeece",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part014"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part015",
+        "bytes": 536870912,
+        "sha256": "064a4880a1f84a10fe2651f09900f0b694e399296bd6aa40b2b821034981dde3",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part015"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part016",
+        "bytes": 536870912,
+        "sha256": "0a95ef6ba175395b8504328f3dbcc5aea592d6d61336311bf3540c67ad5e578a",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part016"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part017",
+        "bytes": 536870912,
+        "sha256": "c6461149c31d9699dec2f5843a529d5b113aff71be4240b7459626871bddbc8e",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part017"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part018",
+        "bytes": 536870912,
+        "sha256": "aa4254bd6d78f3345afa349f2c82eb3fd0db138b1c5750b2d4c0d585503f91c7",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part018"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part019",
+        "bytes": 536870912,
+        "sha256": "7bc7ef0e900237bc2f96470359ffd528760ea3cd30e441140e5acebece11b9de",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part019"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part020",
+        "bytes": 536870912,
+        "sha256": "891f46dc38f2a4659339928614c8547107784b5e30a175297b3784f203e88213",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part020"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part021",
+        "bytes": 536870912,
+        "sha256": "75c88f8fe38bbd30609316f239ec5188030e430ed959073b726a872cce654b34",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part021"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part022",
+        "bytes": 536870912,
+        "sha256": "980ead592851e31f94563a658899dec6b58166964e198d44bf547c4c9e315a91",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part022"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part023",
+        "bytes": 536870912,
+        "sha256": "a9f1d9ab6d00dd4372c41299acc65f5a5876e990a3cc6fb8c027b46629b02b07",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part023"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part024",
+        "bytes": 536870912,
+        "sha256": "07418f71fbb016cd3c27ddaa8040746e8ae2ad099ab11108a815d6eb79083a2f",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part024"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part025",
+        "bytes": 536870912,
+        "sha256": "c0e37f152dfb00102f8dc5796b8fd38f50cbd35a11d7f94125ee2e9e54112a6a",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part025"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part026",
+        "bytes": 536870912,
+        "sha256": "b8b902b05f09c14f028737b7d2e4229d0982ecfaaa26305abad0361b9c73c39d",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part026"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part027",
+        "bytes": 536870912,
+        "sha256": "03945fbbb0c63d3ab0a7d0232ef8264d1466badc9b420248a6c5aee7d9889236",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part027"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part028",
+        "bytes": 536870912,
+        "sha256": "c6c74796578f8bb900e3fc16058f5802463c5e71e3baad4316a5716571598388",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part028"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part029",
+        "bytes": 536870912,
+        "sha256": "a1265d8fd1b8ddfd5f538eb424b1197af35b7d81b64928df47765d82501dfbac",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part029"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part030",
+        "bytes": 536870912,
+        "sha256": "da2661c131e32bce3de6e3813d79bbc5ce21916228a251da21048aaa2d104379",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part030"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part031",
+        "bytes": 536870912,
+        "sha256": "808169b1f95edb9192e3510f5bfbbe1ef1e025c5ab6294afc8004820902d36be",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part031"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part032",
+        "bytes": 536870912,
+        "sha256": "cb4a975ab4a19a5b018aee5cc955e63cd5522cfc32269032a905dcac64153c4d",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part032"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part033",
+        "bytes": 536870912,
+        "sha256": "458948f2c2c10634802a0c8f82fa441fe04b591076c2f934f5dbd8387b4d42d3",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part033"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part034",
+        "bytes": 536870912,
+        "sha256": "48888e34080c552aee98179fba638639fe526380eafde208f77f695d78ca2cd8",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part034"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part035",
+        "bytes": 536870912,
+        "sha256": "dff45fb42a36e4195b271acad017148b8b885d4785d48516b5df9d6b7eb03b70",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part035"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part036",
+        "bytes": 536870912,
+        "sha256": "582787fff9797a110526b04691fe972f33b57107ca2ef483c0b409df8b0879eb",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part036"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part037",
+        "bytes": 536870912,
+        "sha256": "bfa0c449ade15a098b380243be04b277b06b3d7282f90bda5303d7491257596b",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part037"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part038",
+        "bytes": 536870912,
+        "sha256": "8cbf084cc9d51749c977ce2e7231fc11ed8209ef94ad95d46129727694fde5bc",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part038"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part039",
+        "bytes": 536870912,
+        "sha256": "96bcb2b57d135b6371c8ea6f8a898d53c2d6e7e6e4ec1469ec31948159c99685",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part039"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part040",
+        "bytes": 536870912,
+        "sha256": "2ae9f418a3b848f779d47f41c0d2f07a53ad5085a66cac59104f89d5fccd6953",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part040"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part041",
+        "bytes": 536870912,
+        "sha256": "3d6f5cd7d3ec6deb58611cc33257fe9d5115e1cc4fbb3d1129a96e6979b45695",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part041"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part042",
+        "bytes": 536870912,
+        "sha256": "b39fab6a77209d4eb1cf44a0495845371298d5ed27967c0e210df7caf91177d6",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part042"
+      },
+      {
+        "name": "dialects2s-base-and-decoder.tar.part043",
+        "bytes": 28778496,
+        "sha256": "03dae603b6f4a69f217edd064848a1f9a793f355b1486466f560315ff54c878b",
+        "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/dialects2s-base-and-decoder.tar.part043"
+      }
+    ],
+    "files": [
+      {
+        "path": "DialectS2S/.gitattributes",
+        "bytes": 1625,
+        "sha256": "2e780b82fac3ac35ce8288e790ee7a33d3e61ce60c35d36078dc875de7b9252f"
+      },
+      {
+        "path": "DialectS2S/added_tokens.json",
+        "bytes": 827,
+        "sha256": "3856a5732c80f87fe50d26b1c8443c47bb7b101f3c2da6a3b640a901d3736a71"
+      },
+      {
+        "path": "DialectS2S/all_results.json",
+        "bytes": 181,
+        "sha256": "2e5b0b6b86c59bd46b79ee96118d8c30d2f3063343a9f0224428e26848e9edd0"
+      },
+      {
+        "path": "DialectS2S/audio/preprocessor_config.json",
+        "bytes": 359,
+        "sha256": "1fb951f9f5f6d5a301ee05429bfc69b5cbf3794e52ffb21920a42b4ffdb236e9"
+      },
+      {
+        "path": "DialectS2S/config.json",
+        "bytes": 2444,
+        "sha256": "4ef28639a6df9ec58296fa40da8bc90e06625fb4e5c0ce2817ea037b076c604f"
+      },
+      {
+        "path": "DialectS2S/generation_config.json",
+        "bytes": 214,
+        "sha256": "81e8e13e77962857509cc06a9960bb68f8b7893096a60357627b2dfaa72d78fe"
+      },
+      {
+        "path": "DialectS2S/merges.txt",
+        "bytes": 1671853,
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+      },
+      {
+        "path": "DialectS2S/model-00001-of-00005.safetensors",
+        "bytes": 4915756016,
+        "sha256": "e91ebc52f6055ad13bf594538938c88052a0dcbf072fa5403cadc587b0eeca92"
+      },
+      {
+        "path": "DialectS2S/model-00001-of-00005.safetensors.ranges.json",
+        "bytes": 2901,
+        "sha256": "2fdf317a36378322b59d1d7f5b2937810434691602e39f73769a572da3d42130"
+      },
+      {
+        "path": "DialectS2S/model-00002-of-00005.safetensors",
+        "bytes": 4983069856,
+        "sha256": "b1f3f8f48b7144e44599e952e36c6db9b34afd48456cd766a4364517abd25cd7"
+      },
+      {
+        "path": "DialectS2S/model-00002-of-00005.safetensors.ranges.json",
+        "bytes": 2941,
+        "sha256": "82b037910fcbf0aaaa3b4df344a67312409d3d5a9921f30af78478e15d4ed922"
+      },
+      {
+        "path": "DialectS2S/model-00003-of-00005.safetensors",
+        "bytes": 4999847744,
+        "sha256": "d78fbecf2a6747a3602e72ed588d6ff4f57cde2f8f0b31b17e59cb415966b29c"
+      },
+      {
+        "path": "DialectS2S/model-00003-of-00005.safetensors.ranges.json",
+        "bytes": 2951,
+        "sha256": "c22603dea2938b0fd08fa777aa547b63ec8d4e4ee8df8c74447d83d4affed184"
+      },
+      {
+        "path": "DialectS2S/model-00004-of-00005.safetensors",
+        "bytes": 4976157712,
+        "sha256": "5ea640102ea72793ae2b18a49238500a176cb64732fa7e7d5603300f278bba7e"
+      },
+      {
+        "path": "DialectS2S/model-00004-of-00005.safetensors.ranges.json",
+        "bytes": 2931,
+        "sha256": "873ae0b515a8e3aab7845515ae36d5ca096f5825e1f9f27d1d5b3fe987f5d22e"
+      },
+      {
+        "path": "DialectS2S/model-00005-of-00005.safetensors",
+        "bytes": 2136889144,
+        "sha256": "44efafa26d100e7173194638c49dda9c70ed5b833df78079b6b072ed99592391"
+      },
+      {
+        "path": "DialectS2S/model-00005-of-00005.safetensors.ranges.json",
+        "bytes": 1241,
+        "sha256": "7c5ea14c5f8ca0f9619d73bd1856cefdfc290541006238a4101b9cae63d20ba0"
+      },
+      {
+        "path": "DialectS2S/model.safetensors.index.json",
+        "bytes": 112668,
+        "sha256": "30e9427e46e05aeb1223fe2c5dd03d410d02ce04b0056a459ed6852c3bf29b3c"
+      },
+      {
+        "path": "DialectS2S/README.md",
+        "bytes": 21,
+        "sha256": "3e0e15fa0c5cc81675bd69af8eb469d128a725c1a7bfc71f03b7877b7b650567"
+      },
+      {
+        "path": "DialectS2S/special_tokens_map.json",
+        "bytes": 425,
+        "sha256": "00c91d52178519b6038dca6437e7a89a3743c9d0777ad39d894057fdd9ecd750"
+      },
+      {
+        "path": "DialectS2S/tokenizer.json",
+        "bytes": 11423426,
+        "sha256": "84401c2a5f3afe2788556501e460fd082570de01e9ae7987cc929f5ae9e0b91f"
+      },
+      {
+        "path": "DialectS2S/tokenizer_config.json",
+        "bytes": 10250,
+        "sha256": "be5de7f265bff50161a85a1818c0a34890c56e5d5cb515d7c75e68956bb63390"
+      },
+      {
+        "path": "DialectS2S/train_results.json",
+        "bytes": 181,
+        "sha256": "2e5b0b6b86c59bd46b79ee96118d8c30d2f3063343a9f0224428e26848e9edd0"
+      },
+      {
+        "path": "DialectS2S/tts/added_tokens.json",
+        "bytes": 464791,
+        "sha256": "960b0ff87e5f53cc93fd17ee970d053582daeba03e55ec0793ba1c06bf32470b"
+      },
+      {
+        "path": "DialectS2S/tts/generation_config.json",
+        "bytes": 214,
+        "sha256": "81e8e13e77962857509cc06a9960bb68f8b7893096a60357627b2dfaa72d78fe"
+      },
+      {
+        "path": "DialectS2S/tts/merges.txt",
+        "bytes": 1671853,
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+      },
+      {
+        "path": "DialectS2S/tts/special_tokens_map.json",
+        "bytes": 352,
+        "sha256": "6d0c922e24169410ad6397f8e1da48a7d05507f0142945cf39a6d1608760ea7d"
+      },
+      {
+        "path": "DialectS2S/tts/tokenizer.json",
+        "bytes": 14557656,
+        "sha256": "a308df46cc8178cd2716882fb9a411dbe0c68a6236eb586d6721a3e603823efb"
+      },
+      {
+        "path": "DialectS2S/tts/tokenizer_config.json",
+        "bytes": 2980587,
+        "sha256": "4d51a43f568cb355b83f8c06b687acc8212339f0a399d175fb5d17a0edc72c3c"
+      },
+      {
+        "path": "DialectS2S/tts/vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      {
+        "path": "DialectS2S/vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      },
+      {
+        "path": "glm-4-voice-decoder/.gitattributes",
+        "bytes": 1519,
+        "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+      },
+      {
+        "path": "glm-4-voice-decoder/config.yaml",
+        "bytes": 4447,
+        "sha256": "44c108d91a3d0ee97940252fbf64ffe1f3a0d13ff2103f8e6cea95f9db50fe88"
+      },
+      {
+        "path": "glm-4-voice-decoder/flow.pt",
+        "bytes": 445171500,
+        "sha256": "450f52ba9cbea63757914e72b42ac5af21509a2767de0b18b4694546fd1d30ed"
+      },
+      {
+        "path": "glm-4-voice-decoder/flow.pt.ranges.json",
+        "bytes": 303,
+        "sha256": "1c90e0ebad3186c87b7f7aeab5c34d8aa34b038a7dec4cba16b86d0bf88ca922"
+      },
+      {
+        "path": "glm-4-voice-decoder/hift.pt",
+        "bytes": 81896716,
+        "sha256": "91e679b6ca1eff71187ffb4f3ab0444935594cdcc20a9bd12afad111ef8d6012"
+      },
+      {
+        "path": "glm-4-voice-decoder/hift.pt.ranges.json",
+        "bytes": 109,
+        "sha256": "4e119f12b6f4d7ed676d955df10c92e761ee10daa1e90c5c1e4b2b52ecf195e3"
+      },
+      {
+        "path": "glm-4-voice-decoder/LICENSE",
+        "bytes": 6490,
+        "sha256": "3b15c118c6ee08ae5e6e29e3ed5c9dc2ff20ac30ab0fc51e27c08e606c7e15fe"
+      },
+      {
+        "path": "glm-4-voice-decoder/README.md",
+        "bytes": 1415,
+        "sha256": "38204bb44173cd77185c78e4867ebe89d9b3b53b7ca789c164007001bc5ee6de"
+      }
+    ]
+  },
+  "lora": {
+    "name": "glm-4-DialectS2S-CantoTriage-dual-LoRA.zip",
+    "bytes": 10121498,
+    "sha256": "c35a6818050c26a23bd12cc380b1fae1794efe9f8f35a8a3fe455607f3e9fcf3",
+    "files": [
+      {
+        "path": "adapters/llm_lora/adapter_config.json",
+        "bytes": 823,
+        "sha256": "c12a2d8a8b2ab626aba760bb7332d6713b51ac571a4fd0f631345239431cadfb"
+      },
+      {
+        "path": "adapters/llm_lora/adapter_model.safetensors",
+        "bytes": 7686680,
+        "sha256": "68e00c9723b9b06c46da4f69fd05d21c81737a3264cebb4d4070328f7e95943d"
+      },
+      {
+        "path": "adapters/metadata.json",
+        "bytes": 209,
+        "sha256": "1aa4c8b75375e3accc154ff772471ffd9badc06de4b606399e6a03009ed2970b"
+      },
+      {
+        "path": "adapters/tts_lora/adapter_config.json",
+        "bytes": 847,
+        "sha256": "3c4c89f799ead9b7efb289c682298658369cdf2a3038007e4fbdab721aa8746a"
+      },
+      {
+        "path": "adapters/tts_lora/adapter_model.safetensors",
+        "bytes": 3225968,
+        "sha256": "6d59fd00e6d6ee6996fe41cda06ccff111753a52420f73537aed4080d1d14eb9"
+      }
+    ],
+    "url": "https://github.com/JocyRose/AI-CantoTriage/releases/download/dialects2s-dual-lora-20261119/glm-4-DialectS2S-CantoTriage-dual-LoRA.zip"
+  }
+}
