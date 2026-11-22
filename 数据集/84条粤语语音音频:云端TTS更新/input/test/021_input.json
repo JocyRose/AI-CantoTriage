@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 21,
+  "input": "強迫症治療唔好嘅機率有幾多啊。 幾個月前查出強迫性思維，食藥，想問嚇多久能治好，有冇治療不好的可能",
+  "output": "推薦診室：心理健康科，因為你之前查出強迫性思維，而家想了解治療進展同康復時間，可以搵醫生覆診評估。",
+  "spoken_field": "input",
+  "audio": "test/021_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.64,
+  "sha256": "f17af8af01214493a213c1e30bd409cb300913fae6ef57c5ba1cc19e0b05c1e1",
+  "request_id": "30cbedc3-bebd-9e0c-9295-3c39026fc0df",
+  "usage": {
+    "characters": 93
+  }
+}

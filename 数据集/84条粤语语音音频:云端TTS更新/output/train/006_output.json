@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 6,
+  "input": "包皮手術後，冇液體滲出了，也都結痂了\n已經第9天了，而家已經完全結痂了，剛才上了碘伏，用紗布包起嚟咗，包的有啲松，冇醫院包的緊，今晚再勃起會唔會把傷口撐開",
+  "output": "推薦診室：外科，因為你做完包皮手術，依家擔心包紮同傷口會唔會裂開，可以由外科跟進傷口情況。",
+  "spoken_field": "output",
+  "audio": "train/006_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.76,
+  "sha256": "be155976e4d3c04e8b25a48b0837e286fe3145c7aec4cebbea0ea6bd116c74fa",
+  "request_id": "74d4b804-41d2-91cb-820c-a7d0a0f33d15",
+  "usage": {
+    "characters": 85
+  }
+}

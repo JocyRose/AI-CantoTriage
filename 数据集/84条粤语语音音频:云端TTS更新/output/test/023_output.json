@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 23,
+  "input": "點去疤痕最有效最簡便。 點樣除掉面同身上嘅疤痕，大概有23個月嘅痘痘被抓亂之後留低疤，以前唔會留疤",
+  "output": "推薦診室：整形美容科，因為你面同身上嘅痘痘抓損後留低疤痕，想了解修復方法，可以搵醫生評估。",
+  "spoken_field": "output",
+  "audio": "test/023_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.48,
+  "sha256": "f73119d113782f9922983240fbd783f317fc23600c226ff6af1e861aba87466e",
+  "request_id": "c933c39f-7217-9296-8781-fe4db339f2a7",
+  "usage": {
+    "characters": 85
+  }
+}

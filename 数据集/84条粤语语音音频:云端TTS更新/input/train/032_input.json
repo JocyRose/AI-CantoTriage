@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 32,
+  "input": "強迫症點辦呢。特別難受。 我有強迫症，做嘢拖拖拉拉，控制唔到嘅拖拖拉拉",
+  "output": "推薦診室：心理健康科，因為你做嘢成日拖延，覺得控制唔到又難受，可以搵專業人員評估。",
+  "spoken_field": "input",
+  "audio": "train/032_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 7.6,
+  "sha256": "46d60f815f7b789423bdf12bd69b0016e2a343490599c101c2e69258991016ee",
+  "request_id": "f373ec7d-3a00-952c-aa38-0a92994c6c64",
+  "usage": {
+    "characters": 65
+  }
+}

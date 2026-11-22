@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 15,
+  "input": "一食嘢，一邊耳仔就耳鳴！感覺有東西堵著一樣，係咩情況！",
+  "output": "推薦診室：五官科，因為你一食嘢就單邊耳鳴，仲覺得耳仔塞住，需要檢查耳仔。",
+  "spoken_field": "output",
+  "audio": "train/015_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 6.96,
+  "sha256": "97560a4acb3bca63bcbfc20e45fa18af801216b91a94a7875faccf58fc8005aa",
+  "request_id": "2e57e109-7609-95e6-9f6f-b736b94ddb01",
+  "usage": {
+    "characters": 67
+  }
+}

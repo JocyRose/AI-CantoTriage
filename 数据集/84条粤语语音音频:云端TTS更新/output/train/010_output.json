@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 10,
+  "input": "懷孕一個月,吸煙對胎兒有多大影響",
+  "output": "推薦診室：婦產科，因為你懷孕一個月，想了解吸煙對胎兒嘅影響，可以搵醫生傾吓。",
+  "spoken_field": "output",
+  "audio": "train/010_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 8.0,
+  "sha256": "0dd838a2236bd841edd32f45b00c34a64d9e8631dc5e0a55f51fc8e1af9ce859",
+  "request_id": "916260da-a1e7-9ba6-a18e-619fe922729a",
+  "usage": {
+    "characters": 71
+  }
+}

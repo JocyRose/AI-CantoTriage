@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 18,
+  "input": "想問吓醫生白癜風疾病初期可以點診斷？",
+  "output": "推薦診室：皮膚性病科，因為你想了解白癜風初期點樣判斷，可以搵醫生作皮膚評估。",
+  "spoken_field": "input",
+  "audio": "train/018_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 4.4,
+  "sha256": "4d5de43fa1cfe9780ee1c48ee3bac4c40e64579ccb8aac201dc3ccbf7696ee07",
+  "request_id": "1315d5b1-608a-9856-a21d-396670875140",
+  "usage": {
+    "characters": 35
+  }
+}

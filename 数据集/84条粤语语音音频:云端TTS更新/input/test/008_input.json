@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 8,
+  "input": "經期超了6天安理說都可以試出來的,點解我試不出來係咪沒懷?",
+  "output": "推薦診室：婦產科，因為你月經遲咗六日，驗孕又未驗到，想確認有冇懷孕，可以搵醫生評估。",
+  "spoken_field": "input",
+  "audio": "test/008_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 5.68,
+  "sha256": "3855244241c6675617c5c4c0256dc28809c058234417afd584b77694ffe3442c",
+  "request_id": "daf42175-beca-962d-9d96-963fde47c5aa",
+  "usage": {
+    "characters": 56
+  }
+}

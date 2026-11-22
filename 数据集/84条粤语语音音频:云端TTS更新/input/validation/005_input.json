@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 5,
+  "input": "我前牙跌咗，要植一粒新牙。 牙根老時發炎。牙痛，唔能正常咬，牙鬆散。",
+  "output": "推薦診室：五官科，因為你前牙甩咗，仲有牙痛同牙鬆，影響咬嘢，需要檢查牙齒。",
+  "spoken_field": "input",
+  "audio": "validation/005_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 7.36,
+  "sha256": "bc7777c9e220794dfcd2d35ecbe2dcb3ed3f8ae6bc7b176c8cae698c2e12e4ca",
+  "request_id": "edd7691f-f7fa-92b0-9b68-2fc5e0f4fcc3",
+  "usage": {
+    "characters": 61
+  }
+}

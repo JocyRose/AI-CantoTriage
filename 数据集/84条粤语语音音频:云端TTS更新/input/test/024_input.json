@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 24,
+  "input": "眼睛一直都很小，所以我一直都想去做雙眼皮，但係苦於我嘅眼皮比較薄，就一直冇行動。咁，眼皮薄適合割雙眼皮呀？",
+  "output": "推薦診室：整形美容科，因為你想做雙眼皮，但擔心眼皮薄唔適合，可以搵醫生面診評估。",
+  "spoken_field": "input",
+  "audio": "test/024_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.56,
+  "sha256": "f0498962c177ebcac9bf62d6234a7f48e8cb82a191e954c2ed555c8875537800",
+  "request_id": "471dae0f-e11d-96fa-93cf-88519bdf68f0",
+  "usage": {
+    "characters": 100
+  }
+}

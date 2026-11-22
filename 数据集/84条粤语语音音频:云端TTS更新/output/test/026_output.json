@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 26,
+  "input": "我平時好少食菜，想知每日點樣安排先食夠膳食纖維？",
+  "output": "推薦診室：營養保健科，因為你平時食菜少，想食夠膳食纖維，可以搵專業人員傾吓每日飲食安排。",
+  "spoken_field": "output",
+  "audio": "test/026_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 11.52,
+  "sha256": "4e72ed28f24237b1a39bcd404485983acc3c22417fb1ffd268eed3ac44e5726b",
+  "request_id": "85bee738-01b0-9e87-ba87-168f2561bb67",
+  "usage": {
+    "characters": 83
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 14,
+  "input": "點樣看心電圖結果我今年31歲，女，在體檢時醫生話我的心電圖示“T波輕度改變”。這是咩原因造成的，會導致咩疾病？\n需要採取咩治療嗎?",
+  "output": "推薦診室：輔助檢查科，因為你想了解體檢心電圖上嘅描述，可以先向輔助檢查科查詢報告，再按需要轉介。",
+  "spoken_field": "output",
+  "audio": "validation/014_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 11.2,
+  "sha256": "297212860dd14f679c56d785531a0b4949257f650e0d04cc31c7272a2de14c0e",
+  "request_id": "4a42629c-2516-9bec-9077-f6ff4863d67e",
+  "usage": {
+    "characters": 91
+  }
+}

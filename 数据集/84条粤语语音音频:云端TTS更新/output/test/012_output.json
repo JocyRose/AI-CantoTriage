@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 12,
+  "input": "頭皮屑特別多脫發還伴有少量脫發。 你好醫生：之前冇留意頭皮屑，但而家頭癢頭皮屑特別多，仲有少少脫髮，頭髮稀少",
+  "output": "推薦診室：皮膚性病科，因為你頭皮痕、頭皮屑多，仲有少少甩頭髮，需要檢查頭皮情況。",
+  "spoken_field": "output",
+  "audio": "test/012_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.12,
+  "sha256": "49c4a8050768654996a3013eec58f55aea7c6645854f46415578dbf64ca8c577",
+  "request_id": "272a63e2-2d42-9c34-bbe4-8de35001a8a9",
+  "usage": {
+    "characters": 74
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 3,
+  "input": "我女兒今年以八歲多了，還尿牀，每晚兩次或\n我女兒八歲多了還尿牀，每晚兩三次，如果食咗水果或飲料，晚上尿三次以上，中醫看了，西醫看了，藥沒少吃，就是不見好",
+  "output": "推薦診室：兒科，因為你提到八歲女兒晚晚仲有尿床，試過治療都未改善，可以由兒科跟進。",
+  "spoken_field": "input",
+  "audio": "validation/003_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 16.8,
+  "sha256": "c53f43365e07df8f9ab04e2f01e90fe1f04e21c9fe4c885f6329494c020c2eb9",
+  "request_id": "d684e8ba-35d0-972a-8818-1fd5dee6bd6d",
+  "usage": {
+    "characters": 142
+  }
+}

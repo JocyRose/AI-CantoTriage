@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 9,
+  "input": "想問嚇 慢性鼻炎 鼻竇炎用咩方法治療好",
+  "output": "推薦診室：五官科，因為你想了解慢性鼻炎同鼻竇炎嘅處理方法，可以搵醫生評估鼻腔情況。",
+  "spoken_field": "input",
+  "audio": "test/009_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 4.32,
+  "sha256": "00d4a009ff5260cb355956f9a7f8bb2bcd953f3c8616fb3bed69b5191a5926f6",
+  "request_id": "0dca3ead-a2c6-9f17-ae6a-6a77ff97e788",
+  "usage": {
+    "characters": 36
+  }
+}

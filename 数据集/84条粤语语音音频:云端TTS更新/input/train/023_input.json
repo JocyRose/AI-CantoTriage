@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 23,
+  "input": "乙肝病毒量高，會唔會影響高考？？？\n冇咩感覺，每次體檢都能體檢出來，乙肝五項都很正常，就是病毒量高，在過一兩個月都參加高考了，會唔會參加不了高考",
+  "output": "推薦診室：傳染科，因為你想了解乙肝病毒量高嘅情況同對生活嘅影響，可以由傳染科評估同解釋。",
+  "spoken_field": "input",
+  "audio": "train/023_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 13.84,
+  "sha256": "fe7bd1b16719a4c009b975239906d1a7b15b03d4518a09a055a7081cc14bb54d",
+  "request_id": "a3212fd1-fd83-930d-a060-53b935af7fec",
+  "usage": {
+    "characters": 131
+  }
+}

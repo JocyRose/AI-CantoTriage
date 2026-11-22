@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 24,
+  "input": "得乙肝三年，肝功正常，DNA10的7次方\n我孫子得了乙肝，有了3年了，昰她媽傳然的，肝功還正常，就昰DNA病毒函量10的7次方，請問點樣治療，謝謝！",
+  "output": "推薦診室：傳染科，因為你提到孫仔有乙肝，想了解病毒量同治療安排，可以由傳染科跟進。",
+  "spoken_field": "input",
+  "audio": "train/024_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 16.32,
+  "sha256": "e07ec5b3f841813ed0dd5e9ef252eca131e7169eaca4e15f68e5e933df72f6fc",
+  "request_id": "dd0fb23a-ae45-931c-ac04-66d0a6751954",
+  "usage": {
+    "characters": 128
+  }
+}

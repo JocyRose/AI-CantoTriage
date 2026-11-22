@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 12,
+  "input": "月經推遲半個月了，孕酮值在0.51，係咩原因呢需要點治療",
+  "output": "推薦診室：婦產科，因為你月經遲咗半個月，想了解孕酮結果同原因，需要由醫生評估。",
+  "spoken_field": "input",
+  "audio": "train/012_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 6.4,
+  "sha256": "8d95510cc2b7687af8dd034facdca7026359e84a90562bfa20a2acdf92f0b87e",
+  "request_id": "434151eb-5d19-9477-993b-d26966e0b4f8",
+  "usage": {
+    "characters": 54
+  }
+}

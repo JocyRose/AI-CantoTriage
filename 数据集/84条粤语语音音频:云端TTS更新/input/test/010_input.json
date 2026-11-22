@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 10,
+  "input": "睜眼嗰陣會有拉扯感是點了？ 就是睜眼睛嗰陣眼角感覺有拉扯感，很唔舒服。也冇腫咩的。",
+  "output": "推薦診室：五官科，因為你擘大眼嗰陣眼角有拉扯感，覺得唔舒服，需要檢查眼部。",
+  "spoken_field": "input",
+  "audio": "test/010_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 8.56,
+  "sha256": "557efe8ec4e6015f2f1ac44a8c3d8bc45d763ae767c84965a48cf98c993fb6ca",
+  "request_id": "845700fd-607f-9a07-99b0-474845d4e7a0",
+  "usage": {
+    "characters": 77
+  }
+}

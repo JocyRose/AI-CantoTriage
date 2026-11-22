@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 34,
+  "input": "不整容，點去除額頭紋？我額頭紋比較重，想知點去除額頭紋",
+  "output": "推薦診室：整形美容科，因為你額頭紋比較深，想了解有咩改善方法，可以搵醫生評估。",
+  "spoken_field": "input",
+  "audio": "train/034_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 6.48,
+  "sha256": "7e75116b37e66d249f06e54ce3382784f27ed1b716f9e254d712446fdbca715f",
+  "request_id": "60c80e4f-e5fe-94ad-8284-f413bd2e8cd4",
+  "usage": {
+    "characters": 51
+  }
+}

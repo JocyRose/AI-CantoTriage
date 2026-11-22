@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 5,
+  "input": "BB半個月了，因為上火瞓覺成日驚醒必須抱着才能繼續入睡，但係一直抱着對他的身體發宵會有影響嗎，因為我聽説不好的抱姿對BB的脊柱發育唔係太好，好糾結",
+  "output": "推薦診室：兒科，因為你想了解初生BB成日瞓醒同抱住瞓嘅照顧問題，可以向兒科查詢。",
+  "spoken_field": "output",
+  "audio": "test/005_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.6,
+  "sha256": "7e755b015b3d4962a505292ee01ab7daf714db73d86e654e206f0dc0d49aab23",
+  "request_id": "80dd68d9-c271-9aeb-a303-b6d92e2740ba",
+  "usage": {
+    "characters": 74
+  }
+}

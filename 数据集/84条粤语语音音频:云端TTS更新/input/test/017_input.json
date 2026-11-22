@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 17,
+  "input": "你好，我右漆關節內側副韌帶損傷\n做完手術後該注意咩？點樣做康復安排，？請問大概得到多長時間能正常走路，以後還可以做苦力活嗎？",
+  "output": "推薦診室：康復醫學科，因為你做完膝關節韌帶手術，想了解行路同返工前嘅康復安排，可以由康復醫學科評估。",
+  "spoken_field": "input",
+  "audio": "test/017_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 13.36,
+  "sha256": "4d0161c248e404b4bd68aa43eddf4c427194f6a483d78ccd6175058d9616bbdd",
+  "request_id": "0123804b-d31d-9d8a-b2e7-c13999d60802",
+  "usage": {
+    "characters": 117
+  }
+}

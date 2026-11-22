@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 13,
+  "input": "我食全素，想知點樣搭配先夠蛋白質？",
+  "output": "推薦診室：營養保健科，因為你食全素，想確保蛋白質攝取得夠，可以搵專業人員傾吓食物搭配。",
+  "spoken_field": "output",
+  "audio": "validation/013_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.6,
+  "sha256": "7104821dbb057f8e48194c6c1003e856fd3f70a6312c2416051f2dc325c93931",
+  "request_id": "6069efb9-f7ac-92d7-a82b-8f33fd47335f",
+  "usage": {
+    "characters": 81
+  }
+}

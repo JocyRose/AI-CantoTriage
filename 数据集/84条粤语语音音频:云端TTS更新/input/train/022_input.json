@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 22,
+  "input": "右腹疼痛、身上有血紅點、轉氨酶148\n2008年無償獻血查出丙肝，原因是輸血造成。近期感覺乏力、肝部疼痛、身上有針尾血紅點、轉氨酶148'，請問嚴重嗎",
+  "output": "推薦診室：傳染科，因為你提到之前驗到丙肝，最近又攰同右邊肚痛，想了解病情，可以由傳染科跟進。",
+  "spoken_field": "input",
+  "audio": "train/022_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 21.36,
+  "sha256": "07b03bba97d1fd297522312118eba431132e98a2991ba56a60d1372f2e9b00ad",
+  "request_id": "a6177502-2d84-9195-a89f-6f7770cfd172",
+  "usage": {
+    "characters": 140
+  }
+}

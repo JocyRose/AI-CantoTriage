@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 13,
+  "input": "拍胸片顯示右上肺索條是咩意思？\n乳腺癌術後1年，化療放療已經結束，還在做靶向中，複查，做的胸片顯示右上肺索條是咩意思啊？",
+  "output": "推薦診室：腫瘤科，因為你提到乳癌治療後覆查胸片有疑問，依家仲做緊靶向治療，可以由腫瘤科跟進解釋。",
+  "spoken_field": "input",
+  "audio": "test/013_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 12.88,
+  "sha256": "5d08af97aa5e19fd7c3c4c80d9c5a277c5de1039f08f6e283f5c6c37b3349944",
+  "request_id": "417988d1-4b76-93c4-a2df-a790bd17ae7c",
+  "usage": {
+    "characters": 113
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 11,
+  "input": "白癜風變白係咩過程？ 白癜風最先出現嘅地方係一開始就係牛奶色，或者由淺白到深白嘅過程。",
+  "output": "推薦診室：皮膚性病科，因為你想了解白癜風皮膚顏色變白嘅過程，可以搵醫生解答。",
+  "spoken_field": "input",
+  "audio": "test/011_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.68,
+  "sha256": "014f4cf1d7206ced2fcca53c5ed12e92f7556c96056ba3b01b3f38b888ef892e",
+  "request_id": "ee4f401f-e227-97f2-95c0-4cc14e2c52ce",
+  "usage": {
+    "characters": 82
+  }
+}

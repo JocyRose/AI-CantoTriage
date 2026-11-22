@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 25,
+  "input": "髕骨骨折術後23天點樣鍛鍊腿部肌肉\n髕骨骨折術後23天了，還是唔可以直抬腿，而家就是每日伸縮腿，高抬腿，也唔知有效還是無效，點樣才能更快鍛鍊肌肉",
+  "output": "推薦診室：康復醫學科，因為你做完髕骨骨折手術後仲未能直抬腿，想了解肌肉訓練，可以由康復醫學科評估同安排。",
+  "spoken_field": "output",
+  "audio": "train/025_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 12.0,
+  "sha256": "b07c3f69a9a6b1b26b2e3ea52ed9b58ba6dc7d8f98f0d6094a3528939f03dc1d",
+  "request_id": "aa2bbaad-55d8-9257-9668-70a8959dd7cc",
+  "usage": {
+    "characters": 99
+  }
+}

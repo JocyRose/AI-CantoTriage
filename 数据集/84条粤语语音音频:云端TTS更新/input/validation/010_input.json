@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 10,
+  "input": "眼睛唔舒服，口乾口苦\n醫生您好:女，59歲，早晨起來口苦，口乾，舌邊有齒印，火氣大。手指甲有豎楞。請問醫生，吃咩藥調理？目前服用“龍膽瀉肝丸”",
+  "output": "推薦診室：中醫科，因為你提到口乾口苦，依家又有食中成藥，想了解點樣調理，可以由中醫評估。",
+  "spoken_field": "input",
+  "audio": "validation/010_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 17.84,
+  "sha256": "3613014940fd1482543add2ec5f45e470f5dc18d1c59466bb54fc1326b2ca6f2",
+  "request_id": "fd2c6f85-73f0-9f29-aab8-35b7c326a98c",
+  "usage": {
+    "characters": 130
+  }
+}

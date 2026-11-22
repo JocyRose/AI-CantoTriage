@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 25,
+  "input": "我成日飲汽水同奶茶，想慢慢減糖，飲品可以點樣揀？",
+  "output": "推薦診室：營養保健科，因為你成日飲汽水同奶茶，想減少糖分，可以搵專業人員傾吓飲品選擇。",
+  "spoken_field": "input",
+  "audio": "test/025_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 5.36,
+  "sha256": "a629f5ac3c1aab5e61074cfe40c5b872a123231a235215f3a758dca6001900a2",
+  "request_id": "002676c0-f879-9a8c-94b1-8812fa3c00a4",
+  "usage": {
+    "characters": 45
+  }
+}

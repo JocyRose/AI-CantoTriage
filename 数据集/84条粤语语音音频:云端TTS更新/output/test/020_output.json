@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 20,
+  "input": "胃熱口氣大五更泄，舌苔黃白厚，有齒痕手足\n睇過中醫説是脾胃濕熱，上熱下寒飲咗三個月中藥效果不大，肝膽腎胃鏡都檢查了，正常。",
+  "output": "推薦診室：中醫科，因為你提到口氣同腸胃問題，飲咗幾個月中藥都冇乜改善，可以由中醫再評估。",
+  "spoken_field": "output",
+  "audio": "test/020_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.24,
+  "sha256": "2e2c65a3de5cd1d300ccda5a004acd94ecb2b3a72d1f165074bc815a99412b1d",
+  "request_id": "61455b15-75cc-9c61-bed8-3fcb742ac2cb",
+  "usage": {
+    "characters": 83
+  }
+}

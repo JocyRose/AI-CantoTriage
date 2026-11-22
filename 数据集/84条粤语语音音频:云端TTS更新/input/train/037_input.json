@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 37,
+  "input": "吃咩東西胖",
+  "output": "推薦診室：營養保健科，因為你想知食啲咩可以增磅，可以搵專業人員傾吓飲食安排。",
+  "spoken_field": "input",
+  "audio": "train/037_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 1.28,
+  "sha256": "7a03251d06376964532cebff7e7e458bdb6bf0deeace5dad82e657a7d05f2f65",
+  "request_id": "d38e9093-a952-9e9f-b2ef-8e94e0630d40",
+  "usage": {
+    "characters": 10
+  }
+}

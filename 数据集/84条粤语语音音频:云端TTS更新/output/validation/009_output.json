@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 9,
+  "input": "髕骨骨折了，用石膏固定的，幾耐可以跑步？\n:您好，我左髕骨骨折了，用石膏固定的，冇做手術，已經七個月了，我想問一下，而家能跑步嗎",
+  "output": "推薦診室：康復醫學科，因為你提到髕骨骨折固定後已經七個月，想了解可唔可以跑步，可以由康復醫學科評估活動能力。",
+  "spoken_field": "output",
+  "audio": "validation/009_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 12.64,
+  "sha256": "4237d015da517999ba6529a40e5eaa7586854169058dd1bc93151be22131067d",
+  "request_id": "aba1df4d-11e3-9cba-98df-750327c388a4",
+  "usage": {
+    "characters": 103
+  }
+}

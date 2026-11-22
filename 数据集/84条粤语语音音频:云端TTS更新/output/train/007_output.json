@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 7,
+  "input": "BB男，快十一個月了，後囟門冇閉合點樣\n後囟門閉合晚，已經快十一個月了，發育都很正常，點算，我看都是6-8周閉合，我家BB也太晚了，諮詢一下我該點算，謝謝",
+  "output": "推薦診室：兒科，因為你擔心BB嘅囟門仲未閉合，想了解發育情況，可以由兒科檢查同評估。",
+  "spoken_field": "output",
+  "audio": "train/007_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.0,
+  "sha256": "2c1a3f1f0a4c8776388a5f3fb4550994291d271432ce9f97e5b47dc7db6d8014",
+  "request_id": "f1d09a96-cafa-91c0-a6b5-9eafbba449e8",
+  "usage": {
+    "characters": 77
+  }
+}

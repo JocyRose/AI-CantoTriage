@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 22,
+  "input": "焦慮症，抑鬱症，失眠。 醫生好，經常失眠，難入眠，淺睡眠，夢多，點樣自我治癒呢，多謝，工作早8點到晚9點",
+  "output": "推薦診室：心理健康科，因為你經常難入睡、瞓得淺又多夢，仲提到焦慮同抑鬱困擾，可以搵專業人員評估。",
+  "spoken_field": "output",
+  "audio": "test/022_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.96,
+  "sha256": "073d2c8dcf5ccee59a12bc934eb31b7d0ecb6bd4f6ab81063099158e490b16b1",
+  "request_id": "0ecd06a7-71b2-9b02-8b38-d9bf3c9d267a",
+  "usage": {
+    "characters": 90
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 5,
+  "input": "纖維脂肪瘤，在背部7.3cm呈梭型\n纖維脂肪瘤，呈梭型，在背部7.3cm。想問問醫生嚴不嚴重，需不需要動手術，應該點樣治療？平時應該注意咩？",
+  "output": "推薦診室：外科，因為你提到背部有纖維脂肪瘤，想了解需唔需要做手術，可以由外科評估。",
+  "spoken_field": "input",
+  "audio": "train/005_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 16.0,
+  "sha256": "d4f8fbd6f7eac1893b19b709419bffeca1c13b97665a0c48cdc06af1dd591d1c",
+  "request_id": "20164a74-cbbb-9d97-86c0-39417c95151b",
+  "usage": {
+    "characters": 131
+  }
+}

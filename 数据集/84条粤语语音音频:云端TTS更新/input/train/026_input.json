@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 26,
+  "input": "已經三個月的左腕舟狀骨骨折還有機會完全康\n搬貨向後摔倒，左手撐地，已經三個月了，還有冇機會完全康復，MRI檢查報告單結果:左腕舟狀骨骨折，三角骨骨折挫傷",
+  "output": "推薦診室：康復醫學科，因為你提到手腕骨折已經三個月，想了解功能可唔可以恢復，可以由康復醫學科評估。",
+  "spoken_field": "input",
+  "audio": "train/026_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 17.28,
+  "sha256": "cb664a7e3d6f605ca98099eb61e8f61677512fca04f699e9f6803ae22d2fee9e",
+  "request_id": "beb931a3-b251-9f51-bee0-a7a9ee89a1b8",
+  "usage": {
+    "characters": 142
+  }
+}

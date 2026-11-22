@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 17,
+  "input": "蕁麻疹,全身瘙癢,起風包,一塊塊紅癍",
+  "output": "推薦診室：皮膚性病科，因為你全身痕癢，起風癩同一塊塊紅斑，需要檢查皮膚情況。",
+  "spoken_field": "output",
+  "audio": "train/017_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.6,
+  "sha256": "c741c4484d76abf47a7e4857077b13b0caf825558a699cff597a53730155087d",
+  "request_id": "8363bb31-59c0-95e5-a0b8-923c064afb0a",
+  "usage": {
+    "characters": 71
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 8,
+  "input": "冇咩唔舒服，想諮詢這方面的問題\n肝炎通過咩途徑傳播？如果有肝炎的人碰過我的漱口杯，由於我刷牙時會流血，呢種情況會傳染嗎？碰過杯子，茶瓶之類的。會被傳染嗎？",
+  "output": "推薦診室：傳染科，因為你想了解肝炎嘅傳播途徑，同接觸杯具會唔會有感染風險，可以向傳染科查詢。",
+  "spoken_field": "input",
+  "audio": "validation/008_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 21.12,
+  "sha256": "bb31e2c9389a9b29a264f815f524ae03e6f754433e769fbbb019a409f7633747",
+  "request_id": "183102a5-5a80-9e01-937e-bc2d2f8067d6",
+  "usage": {
+    "characters": 145
+  }
+}

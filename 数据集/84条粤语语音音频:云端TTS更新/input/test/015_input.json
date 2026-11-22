@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 15,
+  "input": "體檢胸透説肺結核，咩狀況都冇\n體檢的時候醫生話我有肺結核，去年6月份體檢都冇我有啲害怕，唔知係唔係真的肺結核，咩狀況都冇，除了有啲消瘦和冇食慾",
+  "output": "推薦診室：傳染科，因為你提到體檢懷疑有肺結核，想確認結果同了解下一步檢查，可以由傳染科評估。",
+  "spoken_field": "input",
+  "audio": "test/015_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 15.92,
+  "sha256": "4c8637ff8d0c6f2ccba93cc3152337dd25e793a5d92c0e7cbc2918421bdd3e40",
+  "request_id": "9636eaa1-715f-980b-8696-0717cc899229",
+  "usage": {
+    "characters": 136
+  }
+}

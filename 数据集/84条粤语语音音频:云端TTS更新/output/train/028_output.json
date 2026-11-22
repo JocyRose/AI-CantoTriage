@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 28,
+  "input": "寒濕體質點樣調理？腹脹痛便溏，是寒濕嗎？\n最近腸胃不好，吃不下飯，便溏，四肢無力，腹脹痛，口乾舌燥，去睇醫生説我寒濕，是脾胃虛寒嗎？應該點樣調理？",
+  "output": "推薦診室：中醫科，因為你提到肚脹、胃口差，同埋之前睇過中醫話有寒濕，想了解點樣調理，可以由中醫評估。",
+  "spoken_field": "output",
+  "audio": "train/028_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 12.56,
+  "sha256": "793b36e0dc97ac506c639fa7ff90928fd6ec6ed4060a09d5584e82c2d6ff4a4b",
+  "request_id": "c67f2d9f-e307-90c9-9547-c23a8113433e",
+  "usage": {
+    "characters": 93
+  }
+}

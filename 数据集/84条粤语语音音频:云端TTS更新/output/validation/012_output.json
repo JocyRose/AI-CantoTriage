@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 12,
+  "input": "點樣去除疤痕色素沈著。 騎自行車不慎摔傷臉部，而家臉上有很難看的疤痕，想問吓醫生要點去除色素疤痕？有咩快速的醫治辦法呀？",
+  "output": "推薦診室：整形美容科，因為你踩單車跌傷塊面後留低疤痕同色素印，想了解改善方法，可以搵醫生評估。",
+  "spoken_field": "output",
+  "audio": "validation/012_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 11.36,
+  "sha256": "3795b970c455e463ef6d57ba0c1f850e0247ac6378dc9334976efc684a80904f",
+  "request_id": "f98efcc1-77ea-9d9f-aab5-e7d25e2107af",
+  "usage": {
+    "characters": 89
+  }
+}

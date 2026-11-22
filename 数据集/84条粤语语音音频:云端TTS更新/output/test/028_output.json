@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 28,
+  "input": "做核磁共振用的馬根維顯15ml是每人一支做核磁共振用的馬根維顯15ml是每人一支還是一瓶供多人使用？多人用一瓶規範嗎？馬根維顯有冇供多人使用的包裝",
+  "output": "推薦診室：輔助檢查科，因為你想了解磁共振造影劑嘅包裝同使用安排，可以向輔助檢查科查詢。",
+  "spoken_field": "output",
+  "audio": "test/028_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.8,
+  "sha256": "472983524ff9395dca2b4b236e107281935df52224da77962e2dcaa4326d8517",
+  "request_id": "446de081-3382-9acc-b1e5-3cc90a78b010",
+  "usage": {
+    "characters": 82
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 14,
+  "input": "夜晚磨牙可以做烤瓷牙呀？晚上帶上牙套可以咩",
+  "output": "推薦診室：五官科，因為你夜晚磨牙，想了解牙套同烤瓷牙係咪適合，可以搵醫生評估。",
+  "spoken_field": "input",
+  "audio": "train/014_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 4.8,
+  "sha256": "fd629acf9c7b3ddebd79fdd4b2a86e67fe063e037f67f6604f56aa2f2c5c40b1",
+  "request_id": "2a479943-c6b1-9c47-a274-fd6b11e9ddf9",
+  "usage": {
+    "characters": 41
+  }
+}

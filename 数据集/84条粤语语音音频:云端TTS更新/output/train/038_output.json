@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 38,
+  "input": "我返工成日食外賣，想知點樣揀先均衡啲？",
+  "output": "推薦診室：營養保健科，因為你成日食外賣，想食得均衡啲，可以搵專業人員傾吓點樣揀餐。",
+  "spoken_field": "output",
+  "audio": "train/038_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.44,
+  "sha256": "e72e994523fe1ef6dcd56420714b362879359b2a83bc6bbe345524647cbf0c90",
+  "request_id": "98750363-f089-987c-ad54-e6ef7694e70e",
+  "usage": {
+    "characters": 77
+  }
+}

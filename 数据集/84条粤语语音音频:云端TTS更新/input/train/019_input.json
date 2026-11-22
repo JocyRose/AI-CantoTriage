@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 19,
+  "input": "你好，我母親今年51歲，因胃唔舒服就來醫\n你好，我母親今年51查出惡性胃癌，呢個需要手術麼，還是點樣治療，因為我哋是農村的也不懂呢啲，感謝感謝，感謝幫助",
+  "output": "推薦診室：腫瘤科，因為你提到媽媽驗到胃癌，想了解手術同其他治療安排，可以由腫瘤科評估。",
+  "spoken_field": "input",
+  "audio": "train/019_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 17.68,
+  "sha256": "0681ec6445403bef55601ace7408d193dc5f68d8989c1fb55888352d70507179",
+  "request_id": "bdf4d7d1-3e5f-982d-b42c-70d713087b8d",
+  "usage": {
+    "characters": 147
+  }
+}

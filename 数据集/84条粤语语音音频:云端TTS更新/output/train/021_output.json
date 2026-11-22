@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 21,
+  "input": "剛去醫院做咗檢查，是食道癌\n剛剛檢查出來食道癌，是早期，2*2cm大小，馬上準備做手術，心裏沒底，呢個手術安全嗎？我需要做邊啲準備",
+  "output": "推薦診室：腫瘤科，因為你提到驗到早期食道癌，想了解手術前準備同治療安排，可以由腫瘤科評估。",
+  "spoken_field": "output",
+  "audio": "train/021_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.76,
+  "sha256": "3fd3901abb69b61614a4db9a77abb20ec10c24e9366dafeb9078473b49c2f5bb",
+  "request_id": "4deb16a0-f3ba-9980-8514-2340c0ab7825",
+  "usage": {
+    "characters": 85
+  }
+}

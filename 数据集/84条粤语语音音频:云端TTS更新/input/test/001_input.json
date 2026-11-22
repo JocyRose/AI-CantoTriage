@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 1,
+  "input": "檢查甲狀腺功能掛咩科？ 喺屋企嘅縣醫院檢查有啲甲狀腺功能減退，想去大醫院再查下，應該掛咩科室呢",
+  "output": "推薦診室：內科，因為你之前檢查發現甲狀腺功能偏低，想再覆查，可以搵醫生評估。",
+  "spoken_field": "input",
+  "audio": "test/001_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 11.04,
+  "sha256": "93f23b5822f0972e126f21ccff65d2dbf35eae8cb5998b556321408529fc7285",
+  "request_id": "7605c43e-9219-9161-8b59-768c0cbca8a8",
+  "usage": {
+    "characters": 90
+  }
+}

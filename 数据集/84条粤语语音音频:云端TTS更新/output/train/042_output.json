@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 42,
+  "input": "招工體檢，尿常規異常，Hb2+,建議複查，憂悶我女友招工體檢，尿常規異常，Hb2+,建議複查，這是咩事,請幫助！\nHb2是咩呀，點樣網上都找不到呀？",
+  "output": "推薦診室：輔助檢查科，因為你想了解尿液檢查報告嘅結果同覆查安排，可以向輔助檢查科查詢。",
+  "spoken_field": "output",
+  "audio": "train/042_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.76,
+  "sha256": "84ebc534f6a08f4a567f91d441ebe8f2236aa7f9fa99a659c624b285d2f7cbd8",
+  "request_id": "b2142ee6-070a-9ef3-8648-3dd3172da77e",
+  "usage": {
+    "characters": 82
+  }
+}

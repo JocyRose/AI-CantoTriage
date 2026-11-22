@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 11,
+  "input": "有時會擔心自己嘅身體，焦慮！心情唔好。 有時擔心自己身體有問題，特別悲觀！雖然身體並冇問題，但就是莫名擔心，會導致一時情緒低落",
+  "output": "推薦診室：心理健康科，因為你成日擔心身體有問題，仲有焦慮同情緒低落，可以搵專業人員傾吓。",
+  "spoken_field": "output",
+  "audio": "validation/011_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.52,
+  "sha256": "dae8db498432f60e10b49f6fbbbf7d39bcea0257149c1ba16979162642e633fb",
+  "request_id": "112c266f-47f6-97a4-bff4-47977fcd8d15",
+  "usage": {
+    "characters": 83
+  }
+}

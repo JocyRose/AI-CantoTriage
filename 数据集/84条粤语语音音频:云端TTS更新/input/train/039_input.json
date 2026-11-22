@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 39,
+  "input": "我平時唔飲奶，想問日常飲食可以點樣補鈣？",
+  "output": "推薦診室：營養保健科，因為你平時唔飲奶，想了解點樣從飲食攝取鈣質，可以搵專業人員傾吓。",
+  "spoken_field": "input",
+  "audio": "train/039_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 4.56,
+  "sha256": "27c5c56ac06bc64949adc7bc5493dedd76cc2cdf42b6cf59dae555b46b363ce3",
+  "request_id": "e4a89622-47cc-9e39-b2ee-70473d29e3fc",
+  "usage": {
+    "characters": 38
+  }
+}

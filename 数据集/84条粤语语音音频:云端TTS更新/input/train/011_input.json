@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 11,
+  "input": "問下排卵試紙上有咩用呢，第一次備孕？",
+  "output": "推薦診室：婦產科，因為你第一次備孕，想了解排卵試紙有咩用，可以搵醫生作備孕諮詢。",
+  "spoken_field": "input",
+  "audio": "train/011_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 2.96,
+  "sha256": "c8dc3f403881f577363cb274d400ac279d1eea487e93038255247d28aae65444",
+  "request_id": "39226515-e8ba-9bc9-bebb-dc4913c3c6cf",
+  "usage": {
+    "characters": 34
+  }
+}

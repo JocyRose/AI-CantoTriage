@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 1,
+  "input": "屁多，小肚痛，肚瀉，拉完還是疼。 最近每日都肚痛，肚瀉，拉完還是疼，唔係很疼，隱隱的疼，係點回事？",
+  "output": "推薦診室：內科，因為你最近日日肚瀉、放屁多，屙完仲有隱隱肚痛，需要檢查腸胃。",
+  "spoken_field": "output",
+  "audio": "validation/001_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 8.96,
+  "sha256": "dc3564ce816a5792f8df2a07ea60a078e2a16b0072329de9c0f92b25fadbed45",
+  "request_id": "b3c1587d-8f55-95c6-ac4e-b70e1ee4e978",
+  "usage": {
+    "characters": 70
+  }
+}

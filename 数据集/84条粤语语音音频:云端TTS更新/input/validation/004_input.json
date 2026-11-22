@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 4,
+  "input": "生產完後持續哺乳，而家小孩14個月大了，都沒來月經。點知道有冇排卵？",
+  "output": "推薦診室：婦產科，因為你產後一直餵母乳，十四個月都未嚟月經，想了解有冇排卵，可以搵醫生評估。",
+  "spoken_field": "input",
+  "audio": "validation/004_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 7.04,
+  "sha256": "96860a96dfff7923f75f39a6decc6897b9d36a9e5e0058d9d835df6fda7d9bdd",
+  "request_id": "fb098442-2d48-917c-b969-709ef4671c16",
+  "usage": {
+    "characters": 64
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 2,
+  "input": "早上血壓正常，下午血壓高係點回事，好長時間了，到底係點回事呢，",
+  "output": "推薦診室：內科，因為你長時間朝早血壓正常、下晝就偏高，需要評估血壓變化。",
+  "spoken_field": "input",
+  "audio": "train/002_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 5.28,
+  "sha256": "cc117ade4798f9f733dd8c2db3ee01ca53ec669477cdb3134585e9f458b012a8",
+  "request_id": "f9593526-ccb5-9142-92cd-3fcc0fdfcda8",
+  "usage": {
+    "characters": 58
+  }
+}

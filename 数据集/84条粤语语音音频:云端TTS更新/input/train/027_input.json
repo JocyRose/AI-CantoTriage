@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 27,
+  "input": "請問韌帶拉傷幾耐能恢復，點樣治療\n我腳韌帶拉傷快兩個月了，一直在治療，目前還有啲微腫，唔可以正常走路，請問韌帶拉傷到底幾耐才能恢復",
+  "output": "推薦診室：康復醫學科，因為你提到腳韌帶拉傷後仲有啲腫，行路未恢復正常，可以由康復醫學科評估恢復進度。",
+  "spoken_field": "input",
+  "audio": "train/027_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 14.32,
+  "sha256": "5d74484420fb45404786fce42851ddcab7bfead60ddc39654c81acbb73b14751",
+  "request_id": "4aa8722b-55f3-907a-a3f7-d5c4fd20ba02",
+  "usage": {
+    "characters": 124
+  }
+}

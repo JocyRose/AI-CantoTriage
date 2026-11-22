@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 35,
+  "input": "臉上的疤痕點去掉？ 細個嗰陣臉上摔了了一跤，把臉摔破了，點樣才能去掉疤痕呢？",
+  "output": "推薦診室：整形美容科，因為你細個跌傷塊面後留低疤痕，想改善外觀，可以搵醫生評估。",
+  "spoken_field": "input",
+  "audio": "train/035_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 12.08,
+  "sha256": "28b128acb92fac5fb818e318a80bc1279450110ce09c1a67601ffaf742e52bad",
+  "request_id": "0d971628-319f-9c3e-888a-92bacbcc6f4f",
+  "usage": {
+    "characters": 71
+  }
+}

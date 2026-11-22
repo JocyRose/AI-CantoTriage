@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 29,
+  "input": "請問一下點樣煮中藥，兩天一副的藥\n你好醫生，我想問一下點樣煮中藥，藥是兩天吃一副，一天吃三次，我白天沒時間煮，晚上下班才有時間，請問一下點樣煮才好",
+  "output": "推薦診室：中醫科，因為你想問中藥點樣煎同點樣安排服用，可以向中醫查詢。",
+  "spoken_field": "output",
+  "audio": "train/029_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 8.72,
+  "sha256": "b0daf6b784e05afae4f7b552f0a2b6ea15aebaec06a481c81e128d724bb04c2f",
+  "request_id": "4ac32a70-acbf-9689-954c-2f6b90b16cc9",
+  "usage": {
+    "characters": 66
+  }
+}

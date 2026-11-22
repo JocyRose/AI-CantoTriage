@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 16,
+  "input": "乙肝病毒攜帶者可唔可以治療好？\n6歲檢查出是乙肝病毒攜帶者，可唔可以治療好，會唔會傳染給家人？",
+  "output": "推薦診室：傳染科，因為你提到係乙肝病毒攜帶者，想了解治療同家人嘅感染風險，可以向傳染科查詢。",
+  "spoken_field": "output",
+  "audio": "test/016_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.84,
+  "sha256": "b2935aa738999f5b500eaa32de5dad638aa703a14a599307e3bdb1c36565148e",
+  "request_id": "3da74b9e-1342-91ca-a9ab-68eded4cf6d2",
+  "usage": {
+    "characters": 87
+  }
+}

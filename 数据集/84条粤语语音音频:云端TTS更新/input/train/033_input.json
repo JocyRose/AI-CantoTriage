@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 33,
+  "input": "好像有點潔癖和強迫症。 比較乾淨，每日要洗好多次手，睇到污糟嘢想嘔噃，起雞皮疙瘩",
+  "output": "推薦診室：心理健康科，因為你每日要洗好多次手，見到污糟嘢會想嘔同起雞皮，可以搵專業人員評估。",
+  "spoken_field": "input",
+  "audio": "train/033_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 8.24,
+  "sha256": "6fb5ba6e7a36d3cc46880fdec238ce8f0a08395b8d37dd84c515fa7882455a45",
+  "request_id": "dcbd74d2-4fbf-9089-8e66-4226dfd1985b",
+  "usage": {
+    "characters": 75
+  }
+}

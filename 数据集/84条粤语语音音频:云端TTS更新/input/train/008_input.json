@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 8,
+  "input": "我哋家BB6個月了今日打了A羣流腦疫苗\n今日打了A羣腦流疫苗睡了一覺起來就哭唔知咩事然後我不小心碰了一下打針的地方哭的更厲害了打完呢個針係唔係會疼",
+  "output": "推薦診室：兒科，因為你提到六個月大嘅BB打針後喊，同埋碰到打針位置會喊得更厲害，可以由兒科評估。",
+  "spoken_field": "input",
+  "audio": "train/008_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 15.6,
+  "sha256": "c23208f02d8dada00de1b900d7917552669d9a7eb1a6371340f3e195ae9f66e9",
+  "request_id": "b54a765e-933d-9c6f-a7d8-72f7235301ff",
+  "usage": {
+    "characters": 141
+  }
+}

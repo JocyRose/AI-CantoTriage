@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 16,
+  "input": "T字起咗好多好紅嘅痘咩方法去嘅快",
+  "output": "推薦診室：皮膚性病科，因為你面部T字位生咗好多紅色痘痘，想了解處理方法，可以搵醫生檢查。",
+  "spoken_field": "input",
+  "audio": "train/016_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 4.08,
+  "sha256": "448bb96b2845145cfea5c13a4800e6ec9731bac2053346c70e62c24d9ed7e247",
+  "request_id": "f08e6943-2cd9-98ae-bfce-8c197b3b7cf9",
+  "usage": {
+    "characters": 31
+  }
+}

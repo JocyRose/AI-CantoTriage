@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 19,
+  "input": "中醫診脈體內嚴重虛寒？\n成日尿頻尿急，感覺憋到尿。特別怕冷，很容易疲勞。給中醫診脈，看舌頭，説是體內嚴重虛寒。請問體內虛寒是咩引起的？有咩好的中藥方劑調理？",
+  "output": "推薦診室：中醫科，因為你提到怕凍、容易攰同尿頻，之前睇過中醫，想再問中藥調理，可以由中醫跟進。",
+  "spoken_field": "output",
+  "audio": "test/019_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.72,
+  "sha256": "7cac097fe5e058f8609b269394bd7a810d154d77a5f2f5099c868f4526c44e58",
+  "request_id": "56f88646-3609-94b3-b8e6-87661670db12",
+  "usage": {
+    "characters": 87
+  }
+}

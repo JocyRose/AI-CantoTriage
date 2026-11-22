@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 7,
+  "input": "腎母細胞瘤4期術後恢復良好有咩好的治療\n腎母細胞瘤現已手術切除，術後恢復良好，沒擴散，聽醫生講屬於三期和四期之間，讓化療，請問有咩別的方法嗎？",
+  "output": "推薦診室：腫瘤科，因為你提到腎母細胞瘤手術後，想了解化療同其他治療選擇，可以由腫瘤科跟進。",
+  "spoken_field": "output",
+  "audio": "validation/007_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 11.44,
+  "sha256": "0e5e8567013e9fbe788b3b94c2a5d82e0e1d8e8a74f09b4b80c149852b3a6d8e",
+  "request_id": "909a4959-6a2c-911d-8cdd-3eb042bf8f51",
+  "usage": {
+    "characters": 85
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 41,
+  "input": "磁共振檢查時噪音過大我前陣子檢查了磁共振，因為頭一次做，所以唔知噪音這麼大，進去後就受噪音的折磨，我感覺不適醫生也沒讓我出來啊，請問這應該嗎？謝謝",
+  "output": "推薦診室：輔助檢查科，因為你想了解磁共振檢查嘅噪音，同檢查期間唔舒服可以點樣處理，可以向輔助檢查科查詢。",
+  "spoken_field": "output",
+  "audio": "train/041_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 13.6,
+  "sha256": "4e40fb85c09deca91cce5daf8c4c95dbb49a8fa49f1f94e53648792bd93bd7ad",
+  "request_id": "42d0b3a7-8b07-9fb9-ab96-57fa0c4004ce",
+  "usage": {
+    "characters": 99
+  }
+}

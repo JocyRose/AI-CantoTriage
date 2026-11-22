@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 20,
+  "input": "乳腺癌手術後一定要化療嗎\n乳房有一腫物18*18*12，手術切除後病理報告説是乳腺癌，還進行了液窩淋巴清掃，接下來可能要化療，我唔想化療可以嗎",
+  "output": "推薦診室：腫瘤科，因為你提到乳癌手術後正考慮化療，想了解後續治療，可以由腫瘤科跟進。",
+  "spoken_field": "output",
+  "audio": "train/020_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.28,
+  "sha256": "6987ba2df1020c63a84da7faf02c6e7edfae066dfa0b70d860185c0e27830657",
+  "request_id": "178f3a6e-c25a-97bc-8843-b3ffdb6f3b1f",
+  "usage": {
+    "characters": 79
+  }
+}

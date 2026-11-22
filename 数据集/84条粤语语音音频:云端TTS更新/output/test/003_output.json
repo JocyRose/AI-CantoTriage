@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 3,
+  "input": "痔瘡手術後一側臀部按壓疼痛，請問是點樣回\n痔瘡手術後11天，臀部左側靠近肛門的地方疼痛，像碰撞以後的疼痛，不碰不疼，這是咩情況",
+  "output": "推薦診室：外科，因為你做完痔瘡手術後，肛門附近按落去會痛，可以由外科跟進術後情況。",
+  "spoken_field": "output",
+  "audio": "test/003_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 11.52,
+  "sha256": "7e95b82003a44ba0b4d96a4044a9cf650662dee4b0b56f8faa5b987cd00a60f4",
+  "request_id": "21ba2fd6-09e0-9531-8872-6b3156101899",
+  "usage": {
+    "characters": 77
+  }
+}

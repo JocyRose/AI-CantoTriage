@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 13,
+  "input": "牙齒咩情況才必須要進行刮治。 牙周炎",
+  "output": "推薦診室：五官科，因為你想了解牙周炎幾時需要刮治，可以搵醫生檢查牙齒同牙肉。",
+  "spoken_field": "input",
+  "audio": "train/013_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 4.72,
+  "sha256": "0d52c987fbe20e80757879e3999cdc0d6ddc4f2c9be0a73671198f74cad473c7",
+  "request_id": "59d763b5-a39a-9532-bafd-ce5c963003a9",
+  "usage": {
+    "characters": 34
+  }
+}

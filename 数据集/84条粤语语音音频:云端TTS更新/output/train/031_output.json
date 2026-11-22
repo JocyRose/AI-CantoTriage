@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 31,
+  "input": "點消除緊張、焦慮、恐懼心理嘅焦慮症嘅症狀表現",
+  "output": "推薦診室：心理健康科，因為你想了解點樣紓緩緊張、焦慮同恐懼，可以搵專業人員傾吓。",
+  "spoken_field": "output",
+  "audio": "train/031_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 8.64,
+  "sha256": "eba350702453c6ba4091ed027e9e4e82c61a0de3524f770d82dc66ef2999ea55",
+  "request_id": "49fffade-7175-996e-b461-0f1dfaf018c0",
+  "usage": {
+    "characters": 75
+  }
+}

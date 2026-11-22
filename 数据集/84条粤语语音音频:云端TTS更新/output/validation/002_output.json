@@ -1,0 +1,20 @@
+{
+  "split": "validation",
+  "number": 2,
+  "input": "後腦左側長了個脂肪瘤\n我腦袋左側長了個脂肪瘤大概有一年多了有2釐米那麼大吧割掉的話能不把全部頭髮剃掉嗎？傷口會唔會很大？",
+  "output": "推薦診室：外科，因為你提到後腦有脂肪瘤，想了解切除同傷口安排，可以向外科查詢。",
+  "spoken_field": "output",
+  "audio": "validation/002_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 8.96,
+  "sha256": "c0fc935bc91ce714b6d78fddfc942443e776f9aa6f1fa6720aa4739450feba24",
+  "request_id": "f91b75e3-f4b1-9134-94f1-de0e8a131fa5",
+  "usage": {
+    "characters": 73
+  }
+}

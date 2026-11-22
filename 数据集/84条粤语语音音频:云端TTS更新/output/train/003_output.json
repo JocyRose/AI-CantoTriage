@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 3,
+  "input": "最近兩天肚瀉，腹瀉。 近兩天早上起來自己煮了雞蛋菠菜湯，跟住這兩就肚瀉，有氣",
+  "output": "推薦診室：內科，因為你近兩日肚瀉，肚入面仲有氣，可以搵醫生檢查腸胃。",
+  "spoken_field": "output",
+  "audio": "train/003_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 7.84,
+  "sha256": "40402b63db0a076582e37c094f9bc177c4198beedd9fafa34e7a54c7e5c35535",
+  "request_id": "2afa7de5-0146-9704-9464-42b836b24e8c",
+  "usage": {
+    "characters": 63
+  }
+}

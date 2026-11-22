@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 18,
+  "input": "髕骨骨折術後恢復已經去掉石膏了要點樣做康復訓練",
+  "output": "推薦診室：康復醫學科，因為你做完髕骨骨折手術，依家拆咗石膏，想了解點樣做康復訓練，可以向康復醫學科查詢。",
+  "spoken_field": "output",
+  "audio": "test/018_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 12.32,
+  "sha256": "cc71e92e0467bee732b6f7a6f68cd9a41a169168778458bddf257cf6b1a5b11e",
+  "request_id": "78a8cc2e-e356-91c8-ab27-129b1a71ab89",
+  "usage": {
+    "characters": 98
+  }
+}

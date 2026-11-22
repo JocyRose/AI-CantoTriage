@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 30,
+  "input": "四肢冰冷怕冷，抖，麻，增加活動量無汗。\n四肢冰冷，怕冷，抖，另四肢麻。增加活動量無汗，瞓覺被窩無熱量，其他一切正常。用過一次中藥熱方不見效果。",
+  "output": "推薦診室：中醫科，因為你提到手腳冰冷、怕凍同發麻，試過中藥但冇改善，可以由中醫再評估調理方向。",
+  "spoken_field": "output",
+  "audio": "train/030_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.72,
+  "sha256": "85988fd13cb1d075607aeeab673eff7e0403d5c993eb8cbf2076b7d8e165d67f",
+  "request_id": "2c759ac7-32fa-913e-80ab-ba25c787bd2f",
+  "usage": {
+    "characters": 88
+  }
+}

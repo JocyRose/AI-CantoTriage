@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 14,
+  "input": "74歲老人患食道癌\n已經是食道癌中期,進食時有疼痛感,大便乾燥,四五天一次.對於高齡患者係咪能選擇手術治療?有咩風險?",
+  "output": "推薦診室：腫瘤科，因為你提到長者患食道癌，想了解手術風險同治療選擇，可以由腫瘤科評估。",
+  "spoken_field": "output",
+  "audio": "test/014_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.2,
+  "sha256": "7cd1a8a783bd148964e93e7512b8cc0a5989b8571ae045a4ae7ace115e69bb13",
+  "request_id": "e8dd3f86-bf84-912d-a260-a6a6d192395f",
+  "usage": {
+    "characters": 81
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 40,
+  "input": "氣管鏡檢查難受嗎？應做邊啲準備？",
+  "output": "推薦診室：輔助檢查科，因為你想了解氣管鏡檢查嘅過程同事前準備，可以向輔助檢查科查詢。",
+  "spoken_field": "input",
+  "audio": "train/040_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 3.6,
+  "sha256": "0a9db86953bcf4abf752f45d98621135661b1882d4022a1654c672df7063cdaf",
+  "request_id": "05c7b4e4-fed1-910b-aab5-ffbb2b29765e",
+  "usage": {
+    "characters": 30
+  }
+}

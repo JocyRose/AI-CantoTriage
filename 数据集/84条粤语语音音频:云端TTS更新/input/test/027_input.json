@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 27,
+  "input": "頭部核磁共振結果，請問呢個結果正常嗎？腦實質未見異常信號，中線結構居中。診斷印象腦MR平掃未見著變，我想知道腦袋裏係咪有異物，請問呢個結果説明了咩？",
+  "output": "推薦診室：輔助檢查科，因為你想了解頭部磁共振報告寫嘅內容，可以向輔助檢查科查詢解釋。",
+  "spoken_field": "input",
+  "audio": "test/027_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 16.88,
+  "sha256": "e1faa150f5689886281f5cff6696992684e8a05197fe7526f02478db3ad742ff",
+  "request_id": "308f6f9b-94c6-98be-930f-1d70026a411e",
+  "usage": {
+    "characters": 139
+  }
+}

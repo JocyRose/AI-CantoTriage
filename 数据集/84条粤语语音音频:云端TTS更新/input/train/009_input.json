@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 9,
+  "input": "三歲BB喜歡揉眼睛，還説眼睛老是有眼淚\n三歲的BB老喜歡揉眼睛，我問她點解老是揉眼睛她説眼睛裏有眼淚，但係我看卻冇。她揉眼睛已經有一段時間了，好擔心點算！",
+  "output": "推薦診室：兒科，因為你提到三歲BB成日捽眼，持續咗一段時間，可以先由兒科評估眼部不適。",
+  "spoken_field": "input",
+  "audio": "train/009_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 17.68,
+  "sha256": "77f73ff3ccc3051fe6b8b6b561091276ebf0a374851eda6b6d0e20fdedf8ba27",
+  "request_id": "f6c6d784-b868-9789-8d9d-a25400ccbdea",
+  "usage": {
+    "characters": 143
+  }
+}

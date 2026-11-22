@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 4,
+  "input": "吉林市男人包皮過長邊種手術方式好\n我兒子有啲包皮過長的情況，今年已經21了，由於而家已經放了暑假，所以我哋想畀佢做一個包皮手術，",
+  "output": "推薦診室：外科，因為你想為成年仔安排包皮手術，同了解手術方式，可以向外科查詢。",
+  "spoken_field": "input",
+  "audio": "test/004_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 12.64,
+  "sha256": "67bd7ea1da2f0192c94a532de09eb514fc3c9ec2702bb84109fbae2dc050f6c7",
+  "request_id": "509923bb-7189-9b81-a357-30e905ac93d5",
+  "usage": {
+    "characters": 125
+  }
+}

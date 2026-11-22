@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 7,
+  "input": "人流後閉經一年而家醫治係咪仲會再來月經",
+  "output": "推薦診室：婦產科，因為你人流後一年都未嚟月經，想了解可唔可以恢復，需要檢查月經情況。",
+  "spoken_field": "input",
+  "audio": "test/007_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 4.0,
+  "sha256": "9a771a0a4d79f48c762bc9cc2fd82cb8f5091b3558fe8b7c1b6862fe1cbdb314",
+  "request_id": "9b15442e-047a-91df-b627-444c8ae45c84",
+  "usage": {
+    "characters": 38
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 4,
+  "input": "小弟弟上面找了個小粉瘤\n皮下長了一個小小的粉瘤，冇破，也冇膿血的症狀，感覺皮下有個小東西，擠壓它會位移，請問呢種情況需要第一時間去醫院治療嗎，還是説會自己恢復",
+  "output": "推薦診室：外科，因為你提到生殖器皮下有個細粒腫塊，想了解需唔需要處理，可以由外科檢查。",
+  "spoken_field": "input",
+  "audio": "train/004_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 17.52,
+  "sha256": "b9456e9b82bc2d0d45b4051ec1b4a708353bfc4ae42e8086785e280b10fe0f5a",
+  "request_id": "c51b6123-9739-9c37-bed3-b77c80012a87",
+  "usage": {
+    "characters": 151
+  }
+}

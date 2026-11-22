@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 1,
+  "input": "夜間嘴乾係點回事?",
+  "output": "推薦診室：內科，因為你夜晚口乾，想了解原因，可以搵醫生評估。",
+  "spoken_field": "input",
+  "audio": "train/001_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 2.16,
+  "sha256": "b7ea63247c9c055f9b397214e07754664ccf99c7db707925898c6e85f59a7800",
+  "request_id": "8b24cb61-3cd0-909e-9436-718e5148e133",
+  "usage": {
+    "characters": 17
+  }
+}

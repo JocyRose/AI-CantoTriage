@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 6,
+  "input": "2歲7個月BB，從2歲開始特別依戀起球的衣物，比如袖口，蕾絲也喜歡。瞓覺都要抱着並且嘴巴吮吸狀才能睡着。唔知點樣能改的過來，因為家裏起球的布料太多了，藏不完",
+  "output": "推薦診室：兒科，因為你提到兩歲幾嘅BB瞓覺好依賴某啲衣物，想了解點樣改善，可以由兒科評估。",
+  "spoken_field": "input",
+  "audio": "test/006_input.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 17.28,
+  "sha256": "52592a94606d035ae62d247df7c3660e2c758ab3092d08e82934a5690036dd34",
+  "request_id": "495b1ef4-971c-9d7f-8393-b414282ec83b",
+  "usage": {
+    "characters": 147
+  }
+}

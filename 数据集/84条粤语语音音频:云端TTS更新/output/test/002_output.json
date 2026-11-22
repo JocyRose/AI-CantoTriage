@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "number": 2,
+  "input": "膽汁反流性胃炎吃了許多藥了還是沒咩好轉。 一直嗝氣食咗好多藥都冇用，肚腩成日咕咕響，中藥西藥都食咗就系效果唔好",
+  "output": "推薦診室：內科，因為你一直噯氣，肚入面成日咕咕響，食過藥都冇乜好轉，需要再評估腸胃情況。",
+  "spoken_field": "output",
+  "audio": "test/002_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 10.72,
+  "sha256": "0fb300556081c3ed451f92e9f47e81fc15f94f51fea20628851395d54aa97f69",
+  "request_id": "e61d6ecc-355c-979c-83b3-aa9b7558ee63",
+  "usage": {
+    "characters": 82
+  }
+}

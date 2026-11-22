@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "number": 36,
+  "input": "塌鼻子能做假體隆鼻呀。 我嘅鼻頭係比較塌嘅種，可唔可以唔做假體？如果唔得，有冇其他方法？",
+  "output": "推薦診室：整形美容科，因為你覺得鼻頭比較塌，想了解假體以外嘅改善方法，可以搵醫生評估。",
+  "spoken_field": "output",
+  "audio": "train/036_output.wav",
+  "model": "qwen3-tts-flash",
+  "voice": "Rocky",
+  "language_type": "Chinese",
+  "sample_rate": 24000,
+  "channels": 1,
+  "sample_width": 2,
+  "duration_seconds": 9.28,
+  "sha256": "c03c62a7f2609bd68a94e20bd4b386cf5e3a732f914ecb65c3c75f72cc8404df",
+  "request_id": "60b5f4a8-9f57-9137-bde0-f1eed2699545",
+  "usage": {
+    "characters": 81
+  }
+}
